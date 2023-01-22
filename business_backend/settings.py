@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','backend-pi-liard.vercel.app']
+ALLOWED_HOSTS = ['localhost','.vercel.app']
 
 
 # Application definition
