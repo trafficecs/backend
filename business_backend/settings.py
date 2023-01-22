@@ -42,9 +42,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders'
 ]
-CORS_ORIGIN_WHITELIST = [
-    'https://ecs-traffic.vercel.app',   
-]
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
